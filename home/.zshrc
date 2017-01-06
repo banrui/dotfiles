@@ -92,6 +92,9 @@ SAVEHIST=1000000
 alias rm='rmtrash'
 alias mv='mv -i'
 alias mkdir='mkdir -p'
+alias ls="ls -G"
+alias ll="ls -lG"
+alias la="ls -laG"
 
 # rbenv
 eval "$(rbenv init -)"
