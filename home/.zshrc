@@ -89,12 +89,12 @@ SAVEHIST=1000000
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias rm='rmtrash'
+#alias rm='rmtrash'
 alias mv='mv -i'
 alias mkdir='mkdir -p'
-alias ls="ls -G"
-alias ll="ls -lG"
-alias la="ls -laG"
+alias ls='ls --color'
+alias ll='ls -l --color'
+alias la='ls -la --color'
 
 # rbenv
 eval "$(rbenv init -)"
